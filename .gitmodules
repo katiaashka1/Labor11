@@ -7,4 +7,3 @@
 [submodule "process"]
 	path = process
 	url = https://github.com/boostorg/process
-

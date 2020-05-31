@@ -1,4 +1,3 @@
-// Copyright 2018 Your Name <your_email>
 #pragma once
 #include <async++.h>
 #include <boost/process.hpp>
@@ -6,10 +5,11 @@
 #include <boost/program_options.hpp>
 #include <vector>
 #include <iostream>
-#include <signal.h>
+#include <csignal>
 #include <string>
 #include <thread>
 #include <chrono>
+#include "constants.hpp"
 
 using namespace boost::asio;
 using namespace boost::process;
